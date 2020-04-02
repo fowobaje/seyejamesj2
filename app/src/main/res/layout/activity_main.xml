@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:paddingRight="16dp"
+    android:paddingLeft="16dp">
+
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_weight=".25"
+        android:background="@color/colorPrimary">
+
+
+        <ImageButton
+            android:id="@+id/imageexit"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:srcCompat="@android:drawable/btn_dialog"
+            android:layout_toRightOf="@+id/imagePower"/>
+
+        <ImageButton
+            android:id="@+id/imagePower"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+
+            android:layout_toRightOf="@+id/imageflag"
+            app:srcCompat="@android:drawable/ic_lock_power_off" />
+
+        <ImageButton
+            android:id="@+id/imageseye"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/seye"
+            android:layout_toRightOf="@+id/imageexit"/>
+
+        <ImageButton
+            android:id="@+id/imageflag"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/flag" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+            android:layout_weight=".25"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+        android:background="@color/colorAccent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="126dp"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:text="Name: Ajifowobaje Seye James \nSlack ID: Seye James \nEmail: fowobaje@gmail.com"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight=".15">
+
+        <ScrollView
+            android:id="@+id/scrolView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#F8F5F5">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textLikes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3.5dp"
+                    android:text=" Likes              Dislikes                Hobbies"
+                    android:textAlignment="viewStart"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textDislikes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/textLikes"
+                    android:text=" Food                Lies                      Traveling"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/textHobbies"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/textDislikes"
+                    android:text=" People             Crowds                Movies"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/textDislikes"
+                    android:text=" People             Crowds                Movies"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/textDislikes"
+                    android:text=" People             Crowds                Movies"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/textDislikes"
+                    android:text=" People             Crowds                Movies"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/textDislikes"
+                    android:text=" People             Crowds                Movies"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/textDislikes"
+                    android:text=" People             Crowds                Movies"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/textDislikes"
+                    android:text=" People             Crowds                Movies"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/textDislikes"
+                    android:text=" People             Crowds                Movies"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/textDislikes"
+                    android:text=" People             Crowds                Movies"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/textDislikes"
+                    android:text=" People             Crowds                Movies"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/textDislikes"
+                    android:text=" People             Crowds                Movies"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/textDislikes"
+                    android:text=" People             Crowds                Movies"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/textDislikes"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/textDislikes"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/textDislikes"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/textDislikes"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/textDislikes"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp" />
+
+
+            </LinearLayout>
+
+
+        </ScrollView>
+
+    </RelativeLayout>
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight=".25"
+        android:gravity="center"
+        android:background="#FF9800">
+
+
+        <ImageView
+            android:id="@+id/imagezoom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="16dp"
+            app:srcCompat="@android:drawable/btn_plus" />
+
+        <ImageView
+            android:id="@+id/imagezoomm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@+id/imagezoom"
+            android:layout_marginBottom="16dp"
+            app:srcCompat="@android:drawable/btn_minus" />
+
+        <ImageView
+            android:id="@+id/imagestar"
+            android:layout_width="52dp"
+            android:layout_height="55dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="58dp"
+            android:layout_marginBottom="16dp"
+            android:layout_toRightOf="@+id/imagezoomm"
+            app:srcCompat="@android:drawable/btn_star_big_on" />
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>
